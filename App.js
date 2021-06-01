@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import SplashScreen from 'react-native-splash-screen'
 
 import Tabs from "./navigation/tabs";
+import Profile from './screens/Profile';
 
 const Stack = createStackNavigator();
 
@@ -40,6 +41,10 @@ const App = () => {
                 <Stack.Screen
                     name="OrderDetail"
                     component={OrderDetail}
+                />
+                <Stack.Screen
+                name="Profile"
+                component={Profile}
                 />
             </Stack.Navigator>
         </NavigationContainer>

@@ -218,12 +218,37 @@ const promos = [
 
 ]
 
+export const userInfo =[
+    {
+        id:1,
+        username:"Dam Quoc Luong",
+        email:"damquocluongd872@gmail.com",
+        phone:"03732144124",
+        image:require("../assets/images/coffee.png")
+    },
+    {
+        id:2,
+        username:"Nguyen Thi Kim Anh",
+        email:"kimanhd872@gmail.com",
+        phone:"020511512051",
+        image:require("../assets/images/coffee.png")
+    },
+    {
+        id:3,
+        username:"Nguyen Dai Mai Tien",
+        email:"maitiend872@gmail.com",
+        phone:"0502515151",
+        image:require("../assets/images/coffee.png")
+    }
+]
+
 const dummyData = {
     availableRewards,
     locations,
     menuList,
     milkList,
     promos,
+    userInfo
 };
 
 export default dummyData;
