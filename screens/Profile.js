@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {
     View,
     Text,
@@ -11,9 +11,11 @@ import {
 
  import {COLORS,SIZES,FONTS,icons,dummyData} from '../constants'
  import {IconButton,CustomButton} from '../components'
+import { AuthContext } from '../navigation/AuthProvider';
 
 
  const Profile = ({navigation}) => {
+   const {user,logout} = useContext(AuthContext);
 
 
     function renderHeaderProfile() {
@@ -123,7 +125,7 @@ import {
             >
             <CustomButton
                     isPrimaryButton={true}
-                    label="Sign Out"
+                    label="Log Out"
                     containerStyle={{
                         width:200,
                         paddingVertical:15,
@@ -135,7 +137,7 @@ import {
                         ...FONTS.h3,
                         fontSize:20
                     }}
-                    onPress={() => navigation.navigate("Home")}
+                    onPress={() => logout()}
                 />
 
             </View>

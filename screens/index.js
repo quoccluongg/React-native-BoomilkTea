@@ -4,6 +4,9 @@ import Order from "./Order"
 import OrderDetail from "./OrderDetail"
 import Rewards from "./Rewards"
 import Profile from './Profile'
+import OnboardingScreen from './OnboardingScreen'
+import LoginScreen from './Login'
+import SignupScreen from './SignupScreen'
 
 export {
     Home,
@@ -11,5 +14,8 @@ export {
     Order,
     OrderDetail,
     Rewards,
-    Profile
+    Profile,
+    OnboardingScreen,
+    LoginScreen,
+    SignupScreen
 }

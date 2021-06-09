@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* MilkTeaShopAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MilkTeaShopAppTests.m */; };
+		00E356F31AD99517003FC87E /* MilkTea AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MilkTea AppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -15,13 +15,13 @@
 		2E158F56DC1741D1B36668BC /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9DA1C7CE94CE2A7B5F568 /* Roboto-BoldItalic.ttf */; };
 		32F5193FCF4547F6ACA693DF /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488D18CB6CC249E78B38D911 /* Roboto-Medium.ttf */; };
 		42A061BD66E8432094485583 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EE2A03B1D7E4D8388EB9953 /* Roboto-LightItalic.ttf */; };
-		48A1EE0627D8177DD2480C54 /* libPods-MilkTeaShopApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3382771847EE44C2F8F413C /* libPods-MilkTeaShopApp.a */; };
+		48A1EE0627D8177DD2480C54 /* libPods-MilkTea App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3382771847EE44C2F8F413C /* libPods-MilkTea App.a */; };
 		58E838D05BF142EFB634A1BD /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E269480B73A1476C98CC0FC5 /* RobotoCondensed-BoldItalic.ttf */; };
 		598285B60D8D426896578117 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C610A753DD44994939D899E /* Roboto-Italic.ttf */; };
 		5D02EA9C5B714B2C805B1CA3 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A41FF5F1F25C44FFB6421E2B /* RobotoCondensed-Light.ttf */; };
 		5F107D72F6DD4CF5B8BCC645 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E81C69851F674429B4F70D44 /* RobotoCondensed-Bold.ttf */; };
 		63299A7BE9F3499EA57C2FF0 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A85F6182FC24608B5404ACE /* Roboto-ThinItalic.ttf */; };
-		6647899E04B78E4F01E018A0 /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2D20A6F5EC7960D2542EBF /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */; };
+		6647899E04B78E4F01E018A0 /* libPods-MilkTea App-MilkTea AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2D20A6F5EC7960D2542EBF /* libPods-MilkTea App-MilkTea AppTests.a */; };
 		7E3728D559EF42DB941D7ABC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20A2F183B85247DCA57DC276 /* Roboto-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		85552AA083D841528C684C91 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF4D66679B584AC0BE14F044 /* Roboto-Black.ttf */; };
@@ -32,6 +32,22 @@
 		B54F45DCD2144C2DB8E1AB36 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 973C7F2CA89A4DF1A7461AE6 /* RobotoCondensed-LightItalic.ttf */; };
 		CCAFB9679B6B40E0811DE165 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0F34DB6B024482C965DEA12 /* Roboto-Thin.ttf */; };
 		D50728D55D244BD6AEA43759 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62B85F6E72114D3A9E45E2A6 /* RobotoCondensed-Italic.ttf */; };
+		11CC420009E84372ABE41EA0 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57866C2B412A42DA8E241812 /* AntDesign.ttf */; };
+		4F52EF9881E84EB99C6EC39B /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B1DB6DF80AC44AABCD85D6D /* Entypo.ttf */; };
+		FA0032E2A8AA4C67B7741736 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5414313CFE4824B2A53DAF /* EvilIcons.ttf */; };
+		B34CCE4F99C246009B80FAE8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECFAA04DED334F699C78F67C /* Feather.ttf */; };
+		14A35E659732442AA49C2DAE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2E5A2987E1D4763A72A1860 /* FontAwesome.ttf */; };
+		24E68D45B95E41A4A39B5957 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBF5A2F065D94BAE95741093 /* FontAwesome5_Brands.ttf */; };
+		558EAF5986D24C179CCF0E11 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FBE0D36D6E0491EBD77F5F3 /* FontAwesome5_Regular.ttf */; };
+		894969201F0C40D99B75B850 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B81237670DB64CC18A19D55E /* FontAwesome5_Solid.ttf */; };
+		A7BDBFC1F2114515B87D3E32 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CF44C59DFD848A19CB53640 /* Fontisto.ttf */; };
+		5A38DB2C9E6C4B13AFDCCAE8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98A29EC49D164799868875D3 /* Foundation.ttf */; };
+		329B28853C89487ABD5F95FB /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48EB7A712ED44315AC595D4E /* Ionicons.ttf */; };
+		70FC779446EB4FB5818FA200 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D515073E2404416A801E3596 /* MaterialCommunityIcons.ttf */; };
+		120232819A994380B07090B4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEF155527BB149D2A02C0233 /* MaterialIcons.ttf */; };
+		15B5ECC7A76E4195B5BCC506 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4B0BA2E7F2441EF92C547E6 /* Octicons.ttf */; };
+		B281ACE0A02C4FDE9EDDED80 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3DAAE8CAFC24CAAA5B5617F /* SimpleLineIcons.ttf */; };
+		A6AB35184B7C4E75BC6DBD86 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4A0CE5CD54140D586FB1DA9 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,34 +56,34 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = MilkTeaShopApp;
+			remoteInfo = MilkTea App;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* MilkTeaShopAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkTeaShopAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MilkTea AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkTea AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* MilkTeaShopAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilkTeaShopAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* MilkTeaShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkTeaShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MilkTeaShopApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MilkTeaShopApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MilkTeaShopApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MilkTeaShopApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MilkTeaShopApp/main.m; sourceTree = "<group>"; };
-		1D6B0AE87643C5E3FB401A31 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MilkTea AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilkTea AppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MilkTea App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkTea App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MilkTea App/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MilkTea App/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MilkTea App/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MilkTea App/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MilkTea App/main.m; sourceTree = "<group>"; };
+		1D6B0AE87643C5E3FB401A31 /* Pods-MilkTea App-MilkTea AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTea App-MilkTea AppTests.debug.xcconfig"; path = "Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		20A2F183B85247DCA57DC276 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		488D18CB6CC249E78B38D911 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		544AE6CD6A674B6D89E7B841 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		575D46798E71FBC256E7FC7A /* Pods-MilkTeaShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp.release.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp.release.xcconfig"; sourceTree = "<group>"; };
-		59E47AF7C377F3055C59842B /* Pods-MilkTeaShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp.debug.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp.debug.xcconfig"; sourceTree = "<group>"; };
+		575D46798E71FBC256E7FC7A /* Pods-MilkTea App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTea App.release.xcconfig"; path = "Target Support Files/Pods-MilkTea App/Pods-MilkTea App.release.xcconfig"; sourceTree = "<group>"; };
+		59E47AF7C377F3055C59842B /* Pods-MilkTea App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTea App.debug.xcconfig"; path = "Target Support Files/Pods-MilkTea App/Pods-MilkTea App.debug.xcconfig"; sourceTree = "<group>"; };
 		5CD9DA1C7CE94CE2A7B5F568 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5EE2A03B1D7E4D8388EB9953 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		62B85F6E72114D3A9E45E2A6 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
 		6A85F6182FC24608B5404ACE /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		6C610A753DD44994939D899E /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		78161C1635DF4A17A200A961 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		7D2D20A6F5EC7960D2542EBF /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTeaShopApp-MilkTeaShopAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MilkTeaShopApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2D20A6F5EC7960D2542EBF /* libPods-MilkTea App-MilkTea AppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTea App-MilkTea AppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MilkTea App/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		973C7F2CA89A4DF1A7461AE6 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
 		A41FF5F1F25C44FFB6421E2B /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		C4EBEC97401E49C09F8A524C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
@@ -75,11 +91,27 @@
 		D9880BA39CBB443192894605 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		DF4D66679B584AC0BE14F044 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		E269480B73A1476C98CC0FC5 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
-		E3382771847EE44C2F8F413C /* libPods-MilkTeaShopApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTeaShopApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3382771847EE44C2F8F413C /* libPods-MilkTea App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MilkTea App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F153B1A7F1423C9E70CA34 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 		E81C69851F674429B4F70D44 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F7CACFBB2105237340BC01C3 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig"; path = "Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7CACFBB2105237340BC01C3 /* Pods-MilkTea App-MilkTea AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkTea App-MilkTea AppTests.release.xcconfig"; path = "Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		57866C2B412A42DA8E241812 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B1DB6DF80AC44AABCD85D6D /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D5414313CFE4824B2A53DAF /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECFAA04DED334F699C78F67C /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2E5A2987E1D4763A72A1860 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBF5A2F065D94BAE95741093 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FBE0D36D6E0491EBD77F5F3 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B81237670DB64CC18A19D55E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CF44C59DFD848A19CB53640 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		98A29EC49D164799868875D3 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48EB7A712ED44315AC595D4E /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D515073E2404416A801E3596 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DEF155527BB149D2A02C0233 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4B0BA2E7F2441EF92C547E6 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3DAAE8CAFC24CAAA5B5617F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4A0CE5CD54140D586FB1DA9 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6647899E04B78E4F01E018A0 /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a in Frameworks */,
+				6647899E04B78E4F01E018A0 /* libPods-MilkTea App-MilkTea AppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,20 +127,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48A1EE0627D8177DD2480C54 /* libPods-MilkTeaShopApp.a in Frameworks */,
+				48A1EE0627D8177DD2480C54 /* libPods-MilkTea App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* MilkTeaShopAppTests */ = {
+		00E356EF1AD99517003FC87E /* MilkTea AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* MilkTeaShopAppTests.m */,
+				00E356F21AD99517003FC87E /* MilkTea AppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = MilkTeaShopAppTests;
+			path = MilkTea AppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -119,7 +151,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* MilkTeaShopApp */ = {
+		13B07FAE1A68108700A75B9A /* MilkTea App */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -129,15 +161,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = MilkTeaShopApp;
+			name = MilkTea App;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				E3382771847EE44C2F8F413C /* libPods-MilkTeaShopApp.a */,
-				7D2D20A6F5EC7960D2542EBF /* libPods-MilkTeaShopApp-MilkTeaShopAppTests.a */,
+				E3382771847EE44C2F8F413C /* libPods-MilkTea App.a */,
+				7D2D20A6F5EC7960D2542EBF /* libPods-MilkTea App-MilkTea AppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,9 +184,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* MilkTeaShopApp */,
+				13B07FAE1A68108700A75B9A /* MilkTea App */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MilkTeaShopAppTests */,
+				00E356EF1AD99517003FC87E /* MilkTea AppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C5B317F19D63711FEC58D527 /* Pods */,
@@ -168,8 +200,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MilkTeaShopApp.app */,
-				00E356EE1AD99517003FC87E /* MilkTeaShopAppTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MilkTea App.app */,
+				00E356EE1AD99517003FC87E /* MilkTea AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +227,22 @@
 				A41FF5F1F25C44FFB6421E2B /* RobotoCondensed-Light.ttf */,
 				973C7F2CA89A4DF1A7461AE6 /* RobotoCondensed-LightItalic.ttf */,
 				E3F153B1A7F1423C9E70CA34 /* RobotoCondensed-Regular.ttf */,
+				57866C2B412A42DA8E241812 /* AntDesign.ttf */,
+				3B1DB6DF80AC44AABCD85D6D /* Entypo.ttf */,
+				4D5414313CFE4824B2A53DAF /* EvilIcons.ttf */,
+				ECFAA04DED334F699C78F67C /* Feather.ttf */,
+				F2E5A2987E1D4763A72A1860 /* FontAwesome.ttf */,
+				DBF5A2F065D94BAE95741093 /* FontAwesome5_Brands.ttf */,
+				0FBE0D36D6E0491EBD77F5F3 /* FontAwesome5_Regular.ttf */,
+				B81237670DB64CC18A19D55E /* FontAwesome5_Solid.ttf */,
+				3CF44C59DFD848A19CB53640 /* Fontisto.ttf */,
+				98A29EC49D164799868875D3 /* Foundation.ttf */,
+				48EB7A712ED44315AC595D4E /* Ionicons.ttf */,
+				D515073E2404416A801E3596 /* MaterialCommunityIcons.ttf */,
+				DEF155527BB149D2A02C0233 /* MaterialIcons.ttf */,
+				B4B0BA2E7F2441EF92C547E6 /* Octicons.ttf */,
+				F3DAAE8CAFC24CAAA5B5617F /* SimpleLineIcons.ttf */,
+				F4A0CE5CD54140D586FB1DA9 /* Zocial.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -202,10 +250,10 @@
 		C5B317F19D63711FEC58D527 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				59E47AF7C377F3055C59842B /* Pods-MilkTeaShopApp.debug.xcconfig */,
-				575D46798E71FBC256E7FC7A /* Pods-MilkTeaShopApp.release.xcconfig */,
-				1D6B0AE87643C5E3FB401A31 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */,
-				F7CACFBB2105237340BC01C3 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */,
+				59E47AF7C377F3055C59842B /* Pods-MilkTea App.debug.xcconfig */,
+				575D46798E71FBC256E7FC7A /* Pods-MilkTea App.release.xcconfig */,
+				1D6B0AE87643C5E3FB401A31 /* Pods-MilkTea App-MilkTea AppTests.debug.xcconfig */,
+				F7CACFBB2105237340BC01C3 /* Pods-MilkTea App-MilkTea AppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -213,9 +261,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* MilkTeaShopAppTests */ = {
+		00E356ED1AD99517003FC87E /* MilkTea AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MilkTeaShopAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MilkTea AppTests" */;
 			buildPhases = (
 				CB0D69974A4E8502F749E1B6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -229,14 +277,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = MilkTeaShopAppTests;
-			productName = MilkTeaShopAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* MilkTeaShopAppTests.xctest */;
+			name = MilkTea AppTests;
+			productName = MilkTea AppTests;
+			productReference = 00E356EE1AD99517003FC87E /* MilkTea AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* MilkTeaShopApp */ = {
+		13B07F861A680F5B00A75B9A /* MilkTea App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MilkTeaShopApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MilkTea App" */;
 			buildPhases = (
 				BDF0118D0B37A0E0FB02EAF0 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -251,9 +299,9 @@
 			);
 			dependencies = (
 			);
-			name = MilkTeaShopApp;
-			productName = MilkTeaShopApp;
-			productReference = 13B07F961A680F5B00A75B9A /* MilkTeaShopApp.app */;
+			name = MilkTea App;
+			productName = MilkTea App;
+			productReference = 13B07F961A680F5B00A75B9A /* MilkTea App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -273,7 +321,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MilkTeaShopApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MilkTea App" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -286,8 +334,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MilkTeaShopApp */,
-				00E356ED1AD99517003FC87E /* MilkTeaShopAppTests */,
+				13B07F861A680F5B00A75B9A /* MilkTea App */,
+				00E356ED1AD99517003FC87E /* MilkTea AppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -324,6 +372,22 @@
 				5D02EA9C5B714B2C805B1CA3 /* RobotoCondensed-Light.ttf in Resources */,
 				B54F45DCD2144C2DB8E1AB36 /* RobotoCondensed-LightItalic.ttf in Resources */,
 				90F5C6587C4B42DFB0A95F45 /* RobotoCondensed-Regular.ttf in Resources */,
+				11CC420009E84372ABE41EA0 /* AntDesign.ttf in Resources */,
+				4F52EF9881E84EB99C6EC39B /* Entypo.ttf in Resources */,
+				FA0032E2A8AA4C67B7741736 /* EvilIcons.ttf in Resources */,
+				B34CCE4F99C246009B80FAE8 /* Feather.ttf in Resources */,
+				14A35E659732442AA49C2DAE /* FontAwesome.ttf in Resources */,
+				24E68D45B95E41A4A39B5957 /* FontAwesome5_Brands.ttf in Resources */,
+				558EAF5986D24C179CCF0E11 /* FontAwesome5_Regular.ttf in Resources */,
+				894969201F0C40D99B75B850 /* FontAwesome5_Solid.ttf in Resources */,
+				A7BDBFC1F2114515B87D3E32 /* Fontisto.ttf in Resources */,
+				5A38DB2C9E6C4B13AFDCCAE8 /* Foundation.ttf in Resources */,
+				329B28853C89487ABD5F95FB /* Ionicons.ttf in Resources */,
+				70FC779446EB4FB5818FA200 /* MaterialCommunityIcons.ttf in Resources */,
+				120232819A994380B07090B4 /* MaterialIcons.ttf in Resources */,
+				15B5ECC7A76E4195B5BCC506 /* Octicons.ttf in Resources */,
+				B281ACE0A02C4FDE9EDDED80 /* SimpleLineIcons.ttf in Resources */,
+				A6AB35184B7C4E75BC6DBD86 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,15 +414,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App/Pods-MilkTea App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App/Pods-MilkTea App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTea App/Pods-MilkTea App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2E544A51F34F82368514F8B1 /* [CP] Copy Pods Resources */ = {
@@ -367,15 +431,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App/Pods-MilkTea App-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App/Pods-MilkTea App-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp/Pods-MilkTeaShopApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTea App/Pods-MilkTea App-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		56A452B6AB7D8DA8FA54703D /* [CP] Embed Pods Frameworks */ = {
@@ -384,15 +448,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BDF0118D0B37A0E0FB02EAF0 /* [CP] Check Pods Manifest.lock */ = {
@@ -410,7 +474,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MilkTeaShopApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MilkTea App-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,7 +496,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MilkTeaShopApp-MilkTeaShopAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MilkTea App-MilkTea AppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -445,15 +509,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTeaShopApp-MilkTeaShopAppTests/Pods-MilkTeaShopApp-MilkTeaShopAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MilkTea App-MilkTea AppTests/Pods-MilkTea App-MilkTea AppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -482,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* MilkTeaShopAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MilkTea AppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +564,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* MilkTeaShopApp */;
+			target = 13B07F861A680F5B00A75B9A /* MilkTea App */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -508,14 +572,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D6B0AE87643C5E3FB401A31 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.debug.xcconfig */;
+			baseConfigurationReference = 1D6B0AE87643C5E3FB401A31 /* Pods-MilkTea App-MilkTea AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = MilkTeaShopAppTests/Info.plist;
+				INFOPLIST_FILE = MilkTea AppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -529,17 +593,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkTeaShopApp.app/MilkTeaShopApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkTea App.app/MilkTea App";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CACFBB2105237340BC01C3 /* Pods-MilkTeaShopApp-MilkTeaShopAppTests.release.xcconfig */;
+			baseConfigurationReference = F7CACFBB2105237340BC01C3 /* Pods-MilkTea App-MilkTea AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = MilkTeaShopAppTests/Info.plist;
+				INFOPLIST_FILE = MilkTea AppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,20 +617,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkTeaShopApp.app/MilkTeaShopApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkTea App.app/MilkTea App";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59E47AF7C377F3055C59842B /* Pods-MilkTeaShopApp.debug.xcconfig */;
+			baseConfigurationReference = 59E47AF7C377F3055C59842B /* Pods-MilkTea App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64246H4M77;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = MilkTeaShopApp/Info.plist;
+				INFOPLIST_FILE = MilkTea App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,7 +641,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MilkTeaShopApp;
+				PRODUCT_NAME = MilkTea App;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -586,13 +650,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 575D46798E71FBC256E7FC7A /* Pods-MilkTeaShopApp.release.xcconfig */;
+			baseConfigurationReference = 575D46798E71FBC256E7FC7A /* Pods-MilkTea App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64246H4M77;
-				INFOPLIST_FILE = MilkTeaShopApp/Info.plist;
+				INFOPLIST_FILE = MilkTea App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -603,7 +667,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MilkTeaShopApp;
+				PRODUCT_NAME = MilkTea App;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -735,7 +799,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MilkTeaShopAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MilkTea AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -744,7 +808,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MilkTeaShopApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MilkTea App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -753,7 +817,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MilkTeaShopApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MilkTea App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
