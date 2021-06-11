@@ -5,7 +5,8 @@ import {
     Image,
     StyleSheet,
     Button,
-    TouchableOpacity
+    TouchableOpacity,
+    Platform
 
 } from 'react-native'
 import FormInput from '../components/FormInput'
@@ -54,7 +55,7 @@ const SignupScreen = ({navigation}) => {
 
         <FormButton
           buttonTitle="Sign Up"
-          onPress={() => register(email,password)}
+          onPress={() => register(email, password)}
         />
 
         <View style={styles.textPrivate}>
@@ -76,29 +77,36 @@ const SignupScreen = ({navigation}) => {
           <Text style={styles.navButtonText}>Forgot Password?</Text>
         </TouchableOpacity>
 
-        <SocialButton
-          buttonTitle="Sign Up with Facebook"
-          btnType="facebook"
-          color="#4867aa"
-          backgroundColor="#e6eaf4"
-          onPress={() => {}}
-        />
+        {Platform.OS === "android" ? (
+          <View
+          style={{
+            flex:1,
+            width:"100%"
+          }}
+          >
+            <SocialButton
+              buttonTitle="Sign Up with Facebook"
+              btnType="facebook"
+              color="#4867aa"
+              backgroundColor="#e6eaf4"
+              onPress={() => {}}
+            />
 
-        <SocialButton
-          buttonTitle="Sign Up with Google"
-          btnType="google"
-          color="#de414d"
-          backgroundColor="#f5e7ea"
-          onPress={() => {}}
-        />
+            <SocialButton
+              buttonTitle="Sign Up with Google"
+              btnType="google"
+              color="#de414d"
+              backgroundColor="#f5e7ea"
+              onPress={() => {}}
+            />
+          </View>
+        ) : null}
 
         <TouchableOpacity
           style={styles.navButton}
           onPress={() => navigation.navigate("LoginScreen")}
         >
-          <Text style={styles.navButtonText}>
-            Have an account ? Sign In
-          </Text>
+          <Text style={styles.navButtonText}>Have an account ? Sign In</Text>
         </TouchableOpacity>
       </View>
     );

@@ -25,7 +25,6 @@ const [selectedTab,setSelectedTab] = React.useState(0)
               height: 70,
               backgroundColor: COLORS.primary,
               alignItems: "center",
-              // justifyContent: "center",
             }}
           >
             <View

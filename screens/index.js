@@ -7,6 +7,7 @@ import Profile from './Profile'
 import OnboardingScreen from './OnboardingScreen'
 import LoginScreen from './Login'
 import SignupScreen from './SignupScreen'
+import AddProducts from './AddProducts'
 
 export {
     Home,
@@ -17,5 +18,6 @@ export {
     Profile,
     OnboardingScreen,
     LoginScreen,
-    SignupScreen
+    SignupScreen,
+    AddProducts
 }

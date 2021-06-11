@@ -1,5 +1,5 @@
 import React from 'react';
-import { Location, Order, OrderDetail,OnboardingScreen,LoginScreen,Profile,SignupScreen } from "../screens";
+import { Location, Order, OrderDetail,OnboardingScreen,LoginScreen,Profile,SignupScreen, AddProducts } from "../screens";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from '@react-navigation/native';
 import SplashScreen from 'react-native-splash-screen'
@@ -7,6 +7,7 @@ import SplashScreen from 'react-native-splash-screen'
 import Tabs from "../tabBottom/tabs";
 import  AsyncStorage  from '@react-native-async-storage/async-storage';
 import { View } from 'react-native';
+ import { GoogleSignin } from '@react-native-google-signin/google-signin';
 // import Profile from './screens/Profile';
 
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
@@ -27,7 +28,12 @@ const App = () => {
             }else{
                 setIsFirstLaunch(false)
             }
-        })
+        });
+
+        GoogleSignin.configure({
+          webClientId: '762156959719-0t25vemi6mh1u23dh84k20rp4vt836ot.apps.googleusercontent.com',
+        });
+
     },[])
     React.useEffect(() => {
         SplashScreen.hide();
@@ -58,7 +64,7 @@ const App = () => {
             component={LoginScreen}
             options={{ header: () => null }}
           />
-          <Stack.Screen name="Home" component={Tabs} />
+          {/* <Stack.Screen name="Home" component={Tabs} />
 
           <Stack.Screen name="Location" component={Location} />
 
@@ -66,6 +72,7 @@ const App = () => {
 
           <Stack.Screen name="OrderDetail" component={OrderDetail} />
           <Stack.Screen name="Profile" component={Profile} />
+          <Stack.Screen name="AddProducts" component={AddProducts} /> */}
           <Stack.Screen
             name="SignupScreen"
             component={SignupScreen}

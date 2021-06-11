@@ -1,5 +1,5 @@
 import { transform } from '@babel/core';
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
     View,
     Text,
@@ -13,6 +13,7 @@ import {
 import {HeaderBar,CustomButton} from '../components'
 import { COLORS, SIZES,constants,icons,images,dummyData, FONTS } from '../constants';
 import appTheme from '../constants/theme';
+import firestore from '@react-native-firebase/firestore';
 
 const promoTabs = constants.promoTabs.map((promoTab) => ({
     ...promoTab,
@@ -139,6 +140,51 @@ const Tabs = ({appTheme,scrollX,onPromoTabPress}) => {
 
 const Home = ({ navigation }) => {
 
+    const [posts,setPosts] = useState(null);
+    const [loading,setLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchPosts = async () => {
+            try {
+
+                const list = [];
+
+               await firestore()
+                .collection('posts')
+                .get()
+                .then((querySnapshot) => {
+                    console.log('Total Posts: ', querySnapshot.size);
+
+                    querySnapshot.forEach(doc => {
+                        const {post,postImg,description} = doc.data();
+                        list.push(
+                            {
+                                id: doc.id,
+                                name: post,
+                                description,
+                                calories: "379 - 570",
+                                image: postImg
+                            },
+                        );
+                    })
+                })
+
+                setPosts(list);
+
+                if(loading){
+                    setLoading(false);
+                }
+
+                console.log("Post :" , list);
+            } catch (error) {
+                console.log(error);
+            }
+        }
+
+        fetchPosts();
+
+    },[])
+
     const scrollX = React.useRef(new Animated.Value(0)).current;
 
     const promoScrollViewRef = React.useRef()
@@ -256,10 +302,10 @@ const Home = ({ navigation }) => {
                 />
 
                 {/* Details */}
-
+                {/* dummyData.promos */}
                 <Animated.FlatList
-                ref={promoScrollViewRef}
-                    data={dummyData.promos}
+                    ref={promoScrollViewRef}
+                    data={posts}
                     horizontal
                     pagingEnabled
                     scrollEventThrottle={16}
@@ -282,8 +328,9 @@ const Home = ({ navigation }) => {
                             }}
                           >
                             {/* Image */}
+                            {/* images.strawberryBackground */}
                             <Image
-                              source={images.strawberryBackground}
+                              source={{uri : item.image}}
                               resizeMode="contain"
                               style={{
                                 width: "100%",

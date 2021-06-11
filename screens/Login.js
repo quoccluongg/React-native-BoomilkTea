@@ -5,7 +5,8 @@ import {
     Image,
     StyleSheet,
     Button,
-    TouchableOpacity
+    TouchableOpacity,
+    Platform
 
 } from 'react-native'
 import FormInput from '../components/FormInput'
@@ -19,7 +20,9 @@ const LoginScreen = ({navigation}) => {
   const [email,setEmail] = useState();
   const [password,setPassword] = useState();
 
-  const {login}  = useContext(AuthContext)
+  const {login,googleLogin} = useContext(AuthContext);
+
+  // const {login}  = useContext(AuthContext)
 
     return (
       <View style={styles.container}>
@@ -47,34 +50,43 @@ const LoginScreen = ({navigation}) => {
 
         <FormButton
           buttonTitle="Sign In"
-          onPress={() => login(email,password)}
+          onPress={() => login(email, password)}
         />
 
         <TouchableOpacity style={styles.forgotButton} onPress={() => {}}>
           <Text style={styles.navButtonText}>Forgot Password?</Text>
         </TouchableOpacity>
 
-        <SocialButton
-          buttonTitle="Sign In with Facebook"
-          btnType="facebook"
-          color="#4867aa"
-          backgroundColor="#e6eaf4"
-          onPress={() => {}}
-        />
+        {Platform.OS === "android" ? (
+          <View style={{
+            flex:1,
+            width:"100%"
+          }}>
+            <SocialButton
+              buttonTitle="Sign In with Facebook"
+              btnType="facebook"
+              color="#4867aa"
+              backgroundColor="#e6eaf4"
+              onPress={() => {}}
+            />
 
-        <SocialButton
-          buttonTitle="Sign In with Google"
-          btnType="google"
-          color="#de414d"
-          backgroundColor="#f5e7ea"
-          onPress={() => {}}
-        />
+            <SocialButton
+              buttonTitle="Sign In with Google"
+              btnType="google"
+              color="#de414d"
+              backgroundColor="#f5e7ea"
+              onPress={() => googleLogin()}
+            />
+          </View>
+        ) : null}
 
         <TouchableOpacity
           style={styles.forgotButton}
           onPress={() => navigation.navigate("SignupScreen")}
         >
-          <Text style={styles.navButtonText}>Don't have an account? Create here</Text>
+          <Text style={styles.navButtonText}>
+            Don't have an account? Create here
+          </Text>
         </TouchableOpacity>
       </View>
     );

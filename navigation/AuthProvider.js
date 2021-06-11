@@ -2,6 +2,9 @@ import React, { createContext, useState } from 'react'
 
 import auth from "@react-native-firebase/auth";
 
+ import { GoogleSignin } from '@react-native-google-signin/google-signin';
+
+
 export const AuthContext = createContext();
 
 
@@ -20,6 +23,20 @@ export const AuthProvider =({children}) => {
                         } catch (e) {
                             console.log(e);
                         }
+                },
+                googleLogin: async () => {
+                    try {
+                        // Get the users ID token
+                        const { idToken } = await GoogleSignin.signIn();
+
+                        // Create a Google credential with the token
+                        const googleCredential = auth.GoogleAuthProvider.credential(idToken);
+
+                        // Sign-in the user with the credential
+                        await auth().signInWithCredential(googleCredential);
+                    } catch (error) {
+                        console.log(error);
+                    }
                 },
                 register: async (email,password) => {
                     try {

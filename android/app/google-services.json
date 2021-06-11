@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "762156959719-6077e8sdess27m5tkccec848kvhjkr37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.milkteaapp",
+            "certificate_hash": "132634da3f0f94f9418d6982c7fe9f5f789d4cc3"
+          }
+        },
+        {
           "client_id": "762156959719-0t25vemi6mh1u23dh84k20rp4vt836ot.apps.googleusercontent.com",
           "client_type": 3
         }
