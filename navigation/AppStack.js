@@ -4,7 +4,7 @@ import SplashScreen from 'react-native-splash-screen'
 
 // import Home from '../screens/Home'
 import Tabs from '../tabBottom/tabs';
-import { Location, Order, OrderDetail } from '../screens';
+import { Location, Order, OrderDetail, Profile,EditProdfile } from '../screens';
 
 
 const Stack = createStackNavigator();
@@ -21,6 +21,17 @@ const AppStack = () => {
             <Stack.Screen name="Location" component={Location} options={{ header: () => null }} />
             <Stack.Screen name="Order" component={Order} options={{ header: () => null }} />
             <Stack.Screen name="OrderDetail" component={OrderDetail} options={{ header: () => null }} />
+            <Stack.Screen name="Profile" component={Profile} options={{header: () => null}} />
+            <Stack.Screen name="EditProfile" component={EditProdfile} options={{
+                headerTitle:"Edit Profile",
+                headerBackTitleVisible:false,
+                headerTitleAlign:"center",
+                headerStyle:{
+                    backgroundColor:"#fff",
+                    shadowColor:"#fff",
+                    elevation:0,
+                }
+            }} />
         </Stack.Navigator>
     )
 }

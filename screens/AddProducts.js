@@ -45,7 +45,6 @@ const AddProducts = ({navigation}) => {
       userId : user.uid,
       post: post,
       postImg : imageUrl,
-      description:null
     })
     .then(() => {
       console.log('Post added !');

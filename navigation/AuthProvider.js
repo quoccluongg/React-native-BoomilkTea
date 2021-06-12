@@ -3,6 +3,7 @@ import React, { createContext, useState } from 'react'
 import auth from "@react-native-firebase/auth";
 
  import { GoogleSignin } from '@react-native-google-signin/google-signin';
+ import firestore from '@react-native-firebase/firestore';
 
 
 export const AuthContext = createContext();
@@ -40,7 +41,22 @@ export const AuthProvider =({children}) => {
                 },
                 register: async (email,password) => {
                     try {
-                        await auth().createUserWithEmailAndPassword(email,password);
+                        await auth().createUserWithEmailAndPassword(email,password)
+                        .then(() => {
+                            //Once the user creation has been successfully , we can 
+                            //with the appropriate details.
+                            firestore().collection('users').doc(auth().currentUser.uid)
+                            .set({
+                                fname:"",
+                                lname:"",
+                                email:email,
+                                createdAt:firestore.Timestamp.fromDate(new Date()),
+                                userImg:null,
+                            })
+                            .catch(error => {
+                                console.log("Something went wrong with added user ",error);
+                            })
+                        })
                     } catch (e) {
                         console.log(e);
                     }

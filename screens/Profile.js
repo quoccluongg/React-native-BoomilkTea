@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import {
     View,
     Text,
@@ -12,10 +12,33 @@ import {
  import {COLORS,SIZES,FONTS,icons,dummyData} from '../constants'
  import {IconButton,CustomButton} from '../components'
 import { AuthContext } from '../navigation/AuthProvider';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import firestore from '@react-native-firebase/firestore';
 
 
  const Profile = ({navigation}) => {
    const {user,logout} = useContext(AuthContext);
+   const [userData, setUserData] = useState(null);
+
+   const getUser = async() => {
+     await firestore()
+    .collection('users')
+    .doc(user.uid)
+    .get()
+    .then((documentSnapshot) => {
+      if( documentSnapshot.exists ) {
+        console.log('User Data', documentSnapshot.data());
+        setUserData(documentSnapshot.data());
+      }
+    })
+    .catch((error)=>{
+      console.log("error",error);
+   });
+  }
+
+  useEffect(() => {
+    getUser();
+  }, [])
 
 
     function renderHeaderProfile() {
@@ -72,7 +95,7 @@ import { AuthContext } from '../navigation/AuthProvider';
                 }}
               >
                 <Image
-                  source={icons.sunny}
+                  source={{uri : userData ? userData.userImg : 'https://lh5.googleusercontent.com/-b0PKyNuQv5s/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclxAM4M1SCBGAO7Rp-QP6zgBEUkOQ/s96-c/photo.jpg'}}
                   resizeMode="contain"
                   style={{
                     width: 50,
@@ -88,8 +111,13 @@ import { AuthContext } from '../navigation/AuthProvider';
                      fontSize:21
                 }}
                 >
-                    Sun
+                    {userData ? userData.fname : "Dam"} {userData ? userData.lname : "Loung"}
                 </Text>
+                <Text style={{
+                  color:"#fff",
+                  fontWeight:"bold",
+                  fontSize:16
+                }}>{user.uid}</Text>
             </View>
           </SafeAreaView>
         );
@@ -99,20 +127,30 @@ import { AuthContext } from '../navigation/AuthProvider';
     function renderBodyInfoSecton(){
         return (
           <View>
-            <View style={styles.listRender}>
-              <Text style={styles.userItem}>Username</Text>
-              <Text style={styles.userItem}>Dam Quoc Luong</Text>
+            
+            {/* <View style={styles.listRender}>
+            <FontAwesome name="user-o" color="#333333" size={20} />
+              <Text style={styles.userItem}>{userData ? userData.fname : "Dam"} {userData ? userData.lname : "Loung"}</Text>
             </View>
 
             <View style={styles.listRender}>
-              <Text style={styles.userItem}>Email</Text>
-              <Text style={styles.userItem}>damquocluongd872@gmalc.com</Text>
+            <FontAwesome name="address-card" color="#333333" size={20} />
+              <Text style={styles.userItem}>{userData ? userData.about : "V.I.P"}</Text>
+            </View> */}
+            <View style={styles.listRender}>
+            <FontAwesome name="map-marker" color="#fff" size={25} />
+              <Text style={styles.userItem}>{userData ? userData.country : "Da Nang"}</Text>
+            </View>
+            <View style={styles.listRender}>
+            <FontAwesome name="envelope" color="#fff" size={25} />
+              <Text style={styles.userItem}>{userData ? userData.email : "luongd872@gmail.com"}</Text>
+            </View>
+            <View style={styles.listRender}>
+            <FontAwesome name="phone" color="#fff" size={25} />
+              <Text style={styles.userItem}>{userData ? userData.phone : "0343262882"}</Text>
             </View>
 
-            <View style={styles.listRender}>
-              <Text style={styles.userItem}>phone</Text>
-              <Text style={styles.userItem}>03662326326</Text>
-            </View>
+           
 
             {/* Button */}
             <View
@@ -127,17 +165,32 @@ import { AuthContext } from '../navigation/AuthProvider';
                     isPrimaryButton={true}
                     label="Log Out"
                     containerStyle={{
-                        width:200,
+                        width:100,
                         paddingVertical:15,
                         marginRight:SIZES.radius,
-                        borderRadius:SIZES.radius * 2,
-                        
+                        borderRadius:SIZES.radius,
                     }}
                     labelStyle={{
                         ...FONTS.h3,
                         fontSize:20
                     }}
                     onPress={() => logout()}
+                />
+                <CustomButton
+                    isPrimaryButton={true}
+                    label="Edit"
+                    containerStyle={{
+                        width:100,
+                        paddingVertical:15,
+                        marginRight:SIZES.radius,
+                        borderRadius:SIZES.radius
+                        
+                    }}
+                    labelStyle={{
+                        ...FONTS.h3,
+                        fontSize:20
+                    }}
+                    onPress={() => navigation.navigate('EditProfile')}
                 />
 
             </View>
@@ -165,7 +218,7 @@ import { AuthContext } from '../navigation/AuthProvider';
      userItem : {
         color:COLORS.white,
         ...FONTS.body3,
-        fontSize:16,
+        fontSize:18,
         fontWeight:"bold"
      },
      listRender : {
@@ -174,11 +227,12 @@ import { AuthContext } from '../navigation/AuthProvider';
         justifyContent:"space-between",
         borderWidth:1,
         borderBottomColor:COLORS.white1,
-        paddingHorizontal:SIZES.padding,
-        paddingVertical:SIZES.padding,
+        paddingHorizontal:5,
+        paddingVertical:5,
         borderTopColor:"transparent",
         borderRightColor:"transparent",
         borderLeftColor:"transparent",
+        marginTop:"5%"
      }
  })
  

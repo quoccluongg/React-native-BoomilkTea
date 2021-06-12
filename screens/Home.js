@@ -156,12 +156,12 @@ const Home = ({ navigation }) => {
                     console.log('Total Posts: ', querySnapshot.size);
 
                     querySnapshot.forEach(doc => {
-                        const {post,postImg,description} = doc.data();
+                        const {post,postImg} = doc.data();
                         list.push(
                             {
                                 id: doc.id,
                                 name: post,
-                                description,
+                                description : "BoomilkTea",
                                 calories: "379 - 570",
                                 image: postImg
                             },
