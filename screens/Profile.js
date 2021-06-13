@@ -92,14 +92,15 @@ import firestore from '@react-native-firebase/firestore';
                   zIndex: 1,
                   alignItems: "center",
                   justifyContent: "center",
+                  overflow:"hidden"
                 }}
               >
                 <Image
                   source={{uri : userData ? userData.userImg : 'https://lh5.googleusercontent.com/-b0PKyNuQv5s/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclxAM4M1SCBGAO7Rp-QP6zgBEUkOQ/s96-c/photo.jpg'}}
                   resizeMode="contain"
                   style={{
-                    width: 50,
-                    height: 50,
+                    width: "100%",
+                    height: "100%",
                   }}
                 />
               </View>

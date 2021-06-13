@@ -64,15 +64,6 @@ const App = () => {
             component={LoginScreen}
             options={{ header: () => null }}
           />
-          {/* <Stack.Screen name="Home" component={Tabs} />
-
-          <Stack.Screen name="Location" component={Location} />
-
-          <Stack.Screen name="Order" component={Order} />
-
-          <Stack.Screen name="OrderDetail" component={OrderDetail} />
-          <Stack.Screen name="Profile" component={Profile} />
-          <Stack.Screen name="AddProducts" component={AddProducts} /> */}
           <Stack.Screen
             name="SignupScreen"
             component={SignupScreen}

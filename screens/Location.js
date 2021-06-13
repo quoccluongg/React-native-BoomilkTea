@@ -16,7 +16,7 @@ import {dummyData,COLORS,SIZES,FONTS,icons} from '../constants'
 
 const Location = ({ navigation,appTheme }) => {
 
-const [selectedTab,setSelectedTab] = React.useState(0)
+// const [selectedTab,setSelectedTab] = React.useState(0)
 
     function renderHeader(){
         return (
