@@ -27,7 +27,7 @@ const LoginScreen = ({navigation}) => {
     return (
       <View style={styles.container}>
         <Image
-          source={require("../assets/images/ice-tea.png")}
+          source={require("../assets/images/logo.png")}
           style={styles.logo}
         />
         <Text style={styles.text}>BoomilkTea</Text>

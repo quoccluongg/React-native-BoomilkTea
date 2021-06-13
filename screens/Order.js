@@ -24,7 +24,7 @@ import Svg,{
 const Order = ({ navigation,route }) => {
 
     const [selectedLocation,setSelectedLocation] = React.useState(null)
-    const [selectedTab,setSeclectedTab] = React.useState(0)
+    // const [selectedTab,setSeclectedTab] = React.useState(0)
     const [selectedCategory,setSelectedCategory] = React.useState("Milk Tea")
     const [menu,setMenu] = React.useState(null)
 
