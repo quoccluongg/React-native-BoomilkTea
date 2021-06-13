@@ -75,7 +75,7 @@ const Order = ({ navigation,route }) => {
                     fontSize: 25,
                   }}
                 >
-                    Pick-up Order
+                    Lấy đơn đặt hàng
                 </Text>
               </View>
               <View
@@ -107,71 +107,71 @@ const Order = ({ navigation,route }) => {
     }
 
     // Header Button
-    function renderTopTabBarSection(){
-        return (
-          <View
-            style={{
-              flexDirection: "row",
-              marginTop: SIZES.radius,
-              height: 50,
-              marginTop: SIZES.radius,
-              justifyContent: "center",
-              paddingLeft: SIZES.padding * 2,
-              paddingRight: SIZES.padding,
-            }}
-          >
-            {/* Tab button */}
-            <View
-              style={{
-                flex: 1,
-                flexDirection: "row",
-              }}
-            >
-              <TabButton
-                containerStyle={{
-                  width: 60,
-                }}
-                label="Menu"
-                selected={selectedTab == 0}
-                onPress={() => setSeclectedTab(0)}
-              />
-              <TabButton
-                containerStyle={{
-                  width: 90,
-                }}
-                label="Previous"
-                selected={selectedTab == 1}
-                onPress={() => setSeclectedTab(1)}
-              />
-              <TabButton
-                containerStyle={{
-                  width: 90,
-                }}
-                label="Favourite"
-                selected={selectedTab == 2}
-                onPress={() => setSeclectedTab(2)}
-              />
-            </View>
+    // function renderTopTabBarSection(){
+    //     return (
+    //       <View
+    //         style={{
+    //           flexDirection: "row",
+    //           marginTop: SIZES.radius,
+    //           height: 50,
+    //           marginTop: SIZES.radius,
+    //           justifyContent: "center",
+    //           paddingLeft: SIZES.padding * 2,
+    //           paddingRight: SIZES.padding,
+    //         }}
+    //       >
+    //         {/* Tab button */}
+    //         <View
+    //           style={{
+    //             flex: 1,
+    //             flexDirection: "row",
+    //           }}
+    //         >
+    //           <TabButton
+    //             containerStyle={{
+    //               width: 60,
+    //             }}
+    //             label="Menu"
+    //             selected={selectedTab == 0}
+    //             onPress={() => setSeclectedTab(0)}
+    //           />
+    //           <TabButton
+    //             containerStyle={{
+    //               width: 90,
+    //             }}
+    //             label="Previous"
+    //             selected={selectedTab == 1}
+    //             onPress={() => setSeclectedTab(1)}
+    //           />
+    //           <TabButton
+    //             containerStyle={{
+    //               width: 90,
+    //             }}
+    //             label="Favourite"
+    //             selected={selectedTab == 2}
+    //             onPress={() => setSeclectedTab(2)}
+    //           />
+    //         </View>
 
-            {/* Order Number */}
-            <View
-            style={{
-                width:35,
-                height:35,
-                borderRadius:10,
-                alignItems:"center",
-                justifyContent:"center",
-                backgroundColor:COLORS.primary
-            }}
-            >
-                <Text style={{color:COLORS.white,...FONTS.h3}}>
-                    0
-                </Text>
+    //         {/* Order Number */}
+    //         <View
+    //         style={{
+    //             width:35,
+    //             height:35,
+    //             borderRadius:10,
+    //             alignItems:"center",
+    //             justifyContent:"center",
+    //             backgroundColor:COLORS.primary
+    //         }}
+    //         >
+    //             <Text style={{color:COLORS.white,...FONTS.h3}}>
+    //                 0
+    //             </Text>
 
-            </View>
-          </View>
-        );
-    }
+    //         </View>
+    //       </View>
+    //     );
+    // }
 
 // Side Bar
 
@@ -197,12 +197,12 @@ const Order = ({ navigation,route }) => {
               />
 
               <VerticalTextButton
-                label="Coofee"
+                label="Coffee"
                 containerStyle={{
                   marginTop: 50,
                 }}
-                selected={selectedCategory == "Coofee"}
-              onPress={() => setSelectedCategory("Coofee")}
+                selected={selectedCategory == "Coffee"}
+              onPress={() => setSelectedCategory("Coffee")}
               />
 
               <VerticalTextButton
@@ -257,7 +257,7 @@ const Order = ({ navigation,route }) => {
           }}
         >
           {/* Tab bar */}
-          {renderTopTabBarSection()}
+          {/* {renderTopTabBarSection()} */}
           {/* Side Bar and Listing */}
           <View
             style={{

@@ -1,15 +1,15 @@
 const promoTabs = [
     {
         id: 1,
-        title: "Scan in store",
+        title: "Sản phẩm",
     },
     {
         id: 2,
-        title: "Drink of the Day",
+        title: "Thức uống trong ngày",
     },
     {
         id: 3,
-        title: "Deals",
+        title: "Ưu đãi",
     },
 ]
 

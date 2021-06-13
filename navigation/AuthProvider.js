@@ -34,7 +34,22 @@ export const AuthProvider =({children}) => {
                         const googleCredential = auth.GoogleAuthProvider.credential(idToken);
 
                         // Sign-in the user with the credential
-                        await auth().signInWithCredential(googleCredential);
+                        await auth().signInWithCredential(googleCredential)
+                        .then(() => {
+                            //Once the user creation has been successfully , we can 
+                            //with the appropriate details.
+                            firestore().collection('users').doc(auth().currentUser.uid)
+                            .set({
+                                fname:"",
+                                lname:"",
+                                email:email,
+                                createdAt:firestore.Timestamp.fromDate(new Date()),
+                                userImg:null,
+                            })
+                            .catch(error => {
+                                console.log(error);
+                            })
+                        })
                     } catch (error) {
                         console.log(error);
                     }
@@ -54,7 +69,7 @@ export const AuthProvider =({children}) => {
                                 userImg:null,
                             })
                             .catch(error => {
-                                console.log("Something went wrong with added user ",error);
+                                console.log(error);
                             })
                         })
                     } catch (e) {

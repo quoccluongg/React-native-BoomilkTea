@@ -39,20 +39,20 @@ const OnboardingScreen = ({navigation}) => {
           {
             backgroundColor: '#a6e4d0',
             image: <Image source={require('../assets/images/onboarding-img1.png')} />,
-            title: 'Onboarding 1',
-            subtitle: 'Done with React Native Onboarding Swiper',
+            title: 'Chào mừng bạn đến với BooMilk Tea',
+            subtitle: 'Chất lượng đi đôi với sản phẩm.',
           },
           {
             backgroundColor: '#fdeb93',
             image: <Image source={require('../assets/images/onboarding-img2.png')} />,
-            title: 'Onboarding 2',
-            subtitle: 'Done with React Native Onboarding Swiper',
+            title: 'Chào mừng bạn đến với BooMilk Tea',
+            subtitle: 'Chất lượng đi đôi với sản phẩm.',
           },
           {
             backgroundColor: '#e9bcbe',
             image: <Image source={require('../assets/images/onboarding-img3.png')} />,
-            title: 'Onboarding 2',
-            subtitle: 'Done with React Native Onboarding Swiper',
+            title: 'Chào mừng bạn đến với BooMilk Tea',
+            subtitle: 'Chất lượng đi đôi với sản phẩm.',
           }
         ]}
       />

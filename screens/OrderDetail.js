@@ -62,8 +62,8 @@ function milkButtonHandler(action){
                     source={selectedItem?.thumbnail}
                     resizeMode="contain"
                     style={{
-                        width:SIZES.width * 0.7,
-                        height:SIZES.height * 0.7
+                        width:SIZES.width * 0.6,
+                        height:SIZES.height * 0.6
                     }}
                     />
                     

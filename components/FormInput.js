@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, TextInput, StyleSheet, Dimensions } from 'react-native'
+import { View,Keyboard, Text, TextInput, StyleSheet, Dimensions } from 'react-native'
 import AntDesign from 'react-native-vector-icons/AntDesign'
 import { windowHeight, windowWidth } from '../utils/Dimention'
 
@@ -11,6 +11,7 @@ export default function FormInput({iconType,labelValue,placeholderText,...rest})
         <AntDesign name={iconType} size={25} color="#666" />
             </View>
             <TextInput
+            onSubmitEditing={Keyboard.dismiss}
             style={styles.input}
             value={labelValue}
             numberOfLines={1}

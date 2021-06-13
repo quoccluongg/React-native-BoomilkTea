@@ -33,7 +33,7 @@ const Rewards = ({navigation,appTheme}) => {
                     fontSize:35,
                 }}
                 >
-                Reward
+                Phần Thưởng
                 </Text>
                 <Text
                 style={{
@@ -45,7 +45,7 @@ const Rewards = ({navigation,appTheme}) => {
                     lineHeight:18
                 }}
                 >
-                    You are 60 Point away from your next reward
+                    60 điểm bạn còn cách phần thưởng tiếp theo
                 </Text>
                 {/* Image */}
 
@@ -89,7 +89,7 @@ const Rewards = ({navigation,appTheme}) => {
                 {/* Scan */}
                 <CustomButton
                     isPrimaryButton={true}
-                    label="Scan in store"
+                    label="Lấy điểm"
                     containerStyle={{
                         width:130,
                         paddingVertical:5,
@@ -107,7 +107,7 @@ const Rewards = ({navigation,appTheme}) => {
 
                 <CustomButton
                     isSecondaryButton={true}
-                    label="Redem"
+                    label="Rút điểm"
                     containerStyle={{
                         width:130,
                         paddingVertical:5,
@@ -130,7 +130,7 @@ const Rewards = ({navigation,appTheme}) => {
                 paddingHorizontal:SIZES.padding
             }}
             >
-                <Text style={{color:COLORS.white1,...FONTS.h2}}>Avaiable Reward</Text>
+                <Text style={{color:COLORS.white1,...FONTS.h2}}>Phần thưởng có sẵn</Text>
             </View>
         )
     }

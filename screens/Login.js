@@ -6,7 +6,7 @@ import {
     StyleSheet,
     Button,
     TouchableOpacity,
-    Platform
+    Platform,
 
 } from 'react-native'
 import FormInput from '../components/FormInput'
@@ -30,7 +30,7 @@ const LoginScreen = ({navigation}) => {
           source={require("../assets/images/ice-tea.png")}
           style={styles.logo}
         />
-        <Text style={styles.text}>RN Socila App</Text>
+        <Text style={styles.text}>BoomilkTea</Text>
         <FormInput
           labelValue={email}
           onChangeText={(userEmail) => setEmail(userEmail)}

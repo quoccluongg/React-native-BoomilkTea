@@ -19,7 +19,7 @@ const SignupScreen = ({navigation}) => {
 
   const [email,setEmail] = useState();
   const [password,setPassword] = useState();
-  const [confirmPassword,setConfirmPassword] = useState();
+  // const [confirmPassword,setConfirmPassword] = useState();
  
   const {register} = useContext(AuthContext);
 
@@ -45,13 +45,13 @@ const SignupScreen = ({navigation}) => {
           secureTextEntry={true}
         />
 
-        <FormInput
+        {/* <FormInput
           labelValue={confirmPassword}
           onChangeText={(userPassword) => setPassword(userPassword)}
           placeholderText="confirm Password"
           iconType="lock"
           secureTextEntry={true}
-        />
+        /> */}
 
         <FormButton
           buttonTitle="Sign Up"

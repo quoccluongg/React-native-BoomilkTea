@@ -1,22 +1,22 @@
 export const availableRewards = [
     {
         id: 1,
-        title: "150 points - $2.50 off",
+        title: "150 điểm - 25k",
         eligible: true,
     },
     {
         id: 2,
-        title: "340 points - any 20oz tea or coffee",
+        title: "340 điểm - bất kì 20oz tea or coffee",
         eligible: false,
     },
     {
         id: 3,
-        title: "400 points - any 2 x 20oz tea or coffee",
+        title: "400 điểm - bất kì 2 x 20oz tea or coffee",
         eligible: false,
     },
     {
         id: 4,
-        title: "500 points - any 3 x 20oz tea or coffee",
+        title: "500 điểm - bất kì 3 x 20oz tea or coffee",
         eligible: false,
     },
 ]
@@ -24,30 +24,30 @@ export const availableRewards = [
 export const locations = [
     {
         id: 1,
-        title: "Garden Grove #1",
-        address: "10189 Westminster Avenue Garden Grove, CA",
-        operation_hours: "Sunday - Thursday: 10AM - 11PM \nFriday - Saturday: 10AM - Midnight",
+        title: "BooMilkTea #1",
+        address: "33 Xô Viết Nghệ Tĩnh",
+        operation_hours: "Thứ 2 - Thứ 7: 10AM - 11PM \nThứ 6 - Thứ 7: 10AM - Tối",
         bookmarked: true
     },
     {
         id: 2,
-        title: "Garden Grove #2",
-        address: "10189 Westminster Avenue Garden Grove, CA",
-        operation_hours: "Sunday - Thursday: 10AM - 11PM \nFriday - Saturday: 10AM - Midnight",
+        title: "BooMilkTea #2",
+        address: "10189 Westminster Avenue BooMilkTea, CA",
+        operation_hours: "Thứ 2 - Thứ 7: 10AM - 11PM \nThứ 6 - Thứ 7: 10AM - Tối",
         bookmarked: false
     },
     {
         id: 3,
-        title: "Garden Grove #3",
-        address: "10189 Westminster Avenue Garden Grove, CA",
-        operation_hours: "Sunday - Thursday: 10AM - 11PM \nFriday - Saturday: 10AM - Midnight",
+        title: "BooMilkTea #3",
+        address: "10189 Westminster Avenue BooMilkTea, CA",
+        operation_hours: "Thứ 2 - Thứ 7: 10AM - 11PM \nThứ 6 - Thứ 7: 10AM - Tối",
         bookmarked: true
     },
     {
         id: 4,
-        title: "Garden Grove #4",
-        address: "10189 Westminster Avenue Garden Grove, CA",
-        operation_hours: "Sunday - Thursday: 10AM - 11PM \nFriday - Saturday: 10AM - Midnight",
+        title: "BooMilkTea #4",
+        address: "10189 Westminster Avenue BooMilkTea, CA",
+        operation_hours: "Thứ 2 - Thứ 7: 10AM - 11PM \nThứ 6 - Thứ 7: 10AM - Tối",
         bookmarked: false
     },
 ]
@@ -57,7 +57,7 @@ export const menuList = [
         id: 1,
         name: "Brown Sugar Fresh Milk Tea",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/bubble-tea.png"),
         category: "Milk Tea"
     },
@@ -65,7 +65,7 @@ export const menuList = [
         id: 2,
         name: "Matcha Milk Tea",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/bubble-tea.png"),
         category: "Milk Tea"
     },
@@ -73,7 +73,7 @@ export const menuList = [
         id: 3,
         name: "Strawberry Milk Tea",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/bubble-tea.png"),
         category: "Milk Tea"
     },
@@ -81,7 +81,7 @@ export const menuList = [
         id: 4,
         name: "Ice Lemon Tea",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/ice-tea.png"),
         category: "Specialtea"
     },
@@ -89,7 +89,7 @@ export const menuList = [
         id: 5,
         name: "Berry Smoothie",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/smoothie.png"),
         category: "Smoothie"
     },
@@ -97,7 +97,7 @@ export const menuList = [
         id: 6,
         name: "Immune Booster",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/smoothie.png"),
         category: "Smoothie"
     },
@@ -105,7 +105,7 @@ export const menuList = [
         id: 7,
         name: "Very Berry",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/smoothie.png"),
         category: "Smoothie"
     },
@@ -113,7 +113,7 @@ export const menuList = [
         id: 8,
         name: "Watermelon Lychee Crush",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/smoothie.png"),
         category: "Smoothie"
     },
@@ -121,7 +121,7 @@ export const menuList = [
         id: 9,
         name: "Americano",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/coffee.png"),
         category: "Coffee"
     },
@@ -129,7 +129,7 @@ export const menuList = [
         id: 10,
         name: "Cappuccino",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/coffee.png"),
         category: "Coffee"
     },
@@ -137,7 +137,7 @@ export const menuList = [
         id: 11,
         name: "Mocha",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/coffee.png"),
         category: "Coffee"
     },
@@ -145,7 +145,7 @@ export const menuList = [
         id: 12,
         name: "Espresso",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/coffee.png"),
         category: "Coffee"
     },
@@ -153,7 +153,7 @@ export const menuList = [
         id: 13,
         name: "Long Black",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/coffee.png"),
         category: "Coffee"
     },
@@ -161,7 +161,7 @@ export const menuList = [
         id: 14,
         name: "Hash Brown",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/french-fries.png"),
         category: "Snack"
     },
@@ -169,7 +169,7 @@ export const menuList = [
         id: 15,
         name: "French Fries",
         description: "lorem ipsum dolor sit amet",
-        price: "$4.50-$5.50",
+        price: "17k - 27k",
         thumbnail: require("../assets/images/french-fries.png"),
         category: "Snack"
     },
@@ -218,29 +218,6 @@ const promos = [
 
 ]
 
-export const userInfo =[
-    {
-        id:1,
-        username:"Dam Quoc Luong",
-        email:"damquocluongd872@gmail.com",
-        phone:"03732144124",
-        image:require("../assets/images/coffee.png")
-    },
-    {
-        id:2,
-        username:"Nguyen Thi Kim Anh",
-        email:"kimanhd872@gmail.com",
-        phone:"020511512051",
-        image:require("../assets/images/coffee.png")
-    },
-    {
-        id:3,
-        username:"Nguyen Dai Mai Tien",
-        email:"maitiend872@gmail.com",
-        phone:"0502515151",
-        image:require("../assets/images/coffee.png")
-    }
-]
 
 const dummyData = {
     availableRewards,
@@ -248,7 +225,6 @@ const dummyData = {
     menuList,
     milkList,
     promos,
-    userInfo
 };
 
 export default dummyData;

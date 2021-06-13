@@ -13,7 +13,7 @@ import {
 import {HeaderBar,CustomButton} from '../components'
 import { COLORS, SIZES,constants,icons,images,dummyData, FONTS } from '../constants';
 import appTheme from '../constants/theme';
-import firestore from '@react-native-firebase/firestore';
+// import firestore from '@react-native-firebase/firestore';
 
 const promoTabs = constants.promoTabs.map((promoTab) => ({
     ...promoTab,
@@ -140,50 +140,50 @@ const Tabs = ({appTheme,scrollX,onPromoTabPress}) => {
 
 const Home = ({ navigation }) => {
 
-    const [posts,setPosts] = useState(null);
-    const [loading,setLoading] = useState(true);
+    // const [posts,setPosts] = useState(null);
+    // const [loading,setLoading] = useState(true);
 
-    useEffect(() => {
-        const fetchPosts = async () => {
-            try {
+    // useEffect(() => {
+    //     const fetchPosts = async () => {
+    //         try {
 
-                const list = [];
+    //             const list = [];
 
-               await firestore()
-                .collection('posts')
-                .get()
-                .then((querySnapshot) => {
-                    console.log('Total Posts: ', querySnapshot.size);
+    //            await firestore()
+    //             .collection('posts')
+    //             .get()
+    //             .then((querySnapshot) => {
+    //                 console.log('Total Posts: ', querySnapshot.size);
 
-                    querySnapshot.forEach(doc => {
-                        const {post,postImg} = doc.data();
-                        list.push(
-                            {
-                                id: doc.id,
-                                name: post,
-                                description : "BoomilkTea",
-                                calories: "379 - 570",
-                                image: postImg
-                            },
-                        );
-                    })
-                })
+    //                 querySnapshot.forEach(doc => {
+    //                     const {post,postImg} = doc.data();
+    //                     list.push(
+    //                         {
+    //                             id: doc.id,
+    //                             name: post,
+    //                             description : "BoomilkTea",
+    //                             calories: "379 - 570",
+    //                             image: postImg
+    //                         },
+    //                     );
+    //                 })
+    //             })
 
-                setPosts(list);
+    //             setPosts(list);
 
-                if(loading){
-                    setLoading(false);
-                }
+    //             if(loading){
+    //                 setLoading(false);
+    //             }
 
-                console.log("Post :" , list);
-            } catch (error) {
-                console.log(error);
-            }
-        }
+    //             console.log("Post :" , list);
+    //         } catch (error) {
+    //             console.log(error);
+    //         }
+    //     }
 
-        fetchPosts();
+    //     fetchPosts();
 
-    },[])
+    // },[])
 
     const scrollX = React.useRef(new Animated.Value(0)).current;
 
@@ -268,7 +268,7 @@ const Home = ({ navigation }) => {
                     >
                         {/* Tên Trà Sữa */}
                         <Text style={{color:COLORS.primary,...FONTS.h2,
-                        fontSize:20}}>AvailableRewards</Text>
+                        fontSize:20}}>Phần thưởng có sẵn</Text>
 
                         <View
                         style={{
@@ -279,7 +279,7 @@ const Home = ({ navigation }) => {
                         }}
                         >
                             {/* Miêu tả trà sữa bn tiền */}
-                            <Text style={{color:COLORS.white,...FONTS.body3}}>150 Point - $2.50 off</Text>
+                            <Text style={{color:COLORS.white,...FONTS.body3}}>150 Điểm - 20k </Text>
                         </View>
                     </View>
             </TouchableOpacity>
@@ -305,7 +305,7 @@ const Home = ({ navigation }) => {
                 {/* dummyData.promos */}
                 <Animated.FlatList
                     ref={promoScrollViewRef}
-                    data={posts}
+                    data={dummyData.promos}
                     horizontal
                     pagingEnabled
                     scrollEventThrottle={16}
@@ -330,7 +330,7 @@ const Home = ({ navigation }) => {
                             {/* Image */}
                             {/* images.strawberryBackground */}
                             <Image
-                              source={{uri : item.image}}
+                              source={images.strawberryBackground}
                               resizeMode="contain"
                               style={{
                                 width: "100%",
@@ -367,11 +367,11 @@ const Home = ({ navigation }) => {
                                 ...FONTS.body4,
                               }}
                             >
-                              Caloris : {item.calories}
+                              Nhiệt : {item.calories}
                             </Text>
                             {/* Button */}
                             <CustomButton
-                              label="Oder Now"
+                              label="Đặt ngay"
                               isPrimaryButton={true}
                               containerStyle={{
                                 marginTop: 10,

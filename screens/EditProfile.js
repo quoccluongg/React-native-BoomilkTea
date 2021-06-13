@@ -75,6 +75,7 @@ const EditProfileScreen = () => {
     if( image == null ) {
       return null;
     }
+    
     const uploadUri = image;
     let filename = uploadUri.substring(uploadUri.lastIndexOf('/') + 1);
 

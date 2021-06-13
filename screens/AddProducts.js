@@ -13,7 +13,7 @@ import {AuthContext}from '../navigation/AuthProvider'
 
 const AddProducts = ({navigation}) => {
 
-  const {user,logout} = useContext(AuthContext);
+  const {user} = useContext(AuthContext);
 
 
   const [image,setImage] = useState(null);
@@ -170,7 +170,7 @@ function renderContentPost (){
         marginBottom:15
       }} source={{uri : image }} /> : null}
       <TextInput
-      placeholder="What's on your mind?"
+      placeholder="Nhập sản phẩm "
       multiline
       numberOfLines={4}
       value={post}
@@ -210,19 +210,19 @@ function renderContentPost (){
           color:"#2e64e5"
         }}
         >
-          Post
+          Gửi
         </Text>
       </TouchableOpacity>
 
     )}
 
       <ActionButton style={styles.actionButton} buttonColor="rgba(231,76,60,1)">
-          <ActionButton.Item buttonColor='#9b59b6' title="New Task" onPress={() => console.log("notes tapped!")}>
+          {/* <ActionButton.Item buttonColor='#9b59b6' title="New Task" onPress={() => console.log("notes tapped!")}>
             <Icon name="md-create" style={styles.actionButtonIcon} />
           </ActionButton.Item>
           <ActionButton.Item buttonColor='#3498db' title="Notifications" onPress={() => {}}>
             <Icon name="md-notifications-off" style={styles.actionButtonIcon} />
-          </ActionButton.Item>
+          </ActionButton.Item> */}
           <ActionButton.Item buttonColor='#1abc9c' title="Choose Photo" onPress={choosePhotoFromLibrary}>
             <Icon name="camera-outline" style={styles.actionButtonIcon} />
           </ActionButton.Item>

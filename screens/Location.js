@@ -51,7 +51,7 @@ const [selectedTab,setSelectedTab] = React.useState(0)
                      COLORS.white, ...FONTS.h1,
                       fontSize: 25 }}
                 >
-                  Locations
+                  Địa điểm
                 </Text>
               </View>
               {/* Empty */}
@@ -60,49 +60,49 @@ const [selectedTab,setSelectedTab] = React.useState(0)
           </SafeAreaView>
         );
     }
-    function renderTopBarSection() {
-      return(
-        <View
-        style={{
-          flexDirection:"row",
+    // function renderTopBarSection() {
+    //   return(
+    //     <View
+    //     style={{
+    //       flexDirection:"row",
 
-        }}
-        >
-          {/* Nearby */}
-          <TabButton
-          containerStyle={{
-            width:80,
+    //     }}
+    //     >
+    //       {/* Nearby */}
+    //       <TabButton
+    //       containerStyle={{
+    //         width:80,
 
-          }}
-          label="Nearby"
-          selected={selectedTab == 0}
-          onPress={() => setSelectedTab(0)}
-          />
+    //       }}
+    //       label="Gần đây"
+    //       selected={selectedTab == 0}
+    //       onPress={() => setSelectedTab(0)}
+    //       />
 
-          {/* Previous */}
-          <TabButton
-          containerStyle={{
-            width:100
-          }}
-          label="Previous"
-          selected={selectedTab == 1}
-          onPress={() => setSelectedTab(1)}
-          />
+    //       {/* Previous */}
+    //       <TabButton
+    //       containerStyle={{
+    //         width:100
+    //       }}
+    //       label="Previous"
+    //       selected={selectedTab == 1}
+    //       onPress={() => setSelectedTab(1)}
+    //       />
 
-          {/* Favourite */}
-          <TabButton
-          containerStyle={{
-            width:100,
-          }}
-          label="Favourite"
-          selected={selectedTab == 2}
-          onPress={() => setSelectedTab(2)}
-          />
+    //       {/* Favourite */}
+    //       <TabButton
+    //       containerStyle={{
+    //         width:100,
+    //       }}
+    //       label="Favourite"
+    //       selected={selectedTab == 2}
+    //       onPress={() => setSelectedTab(2)}
+    //       />
 
 
-        </View>
-      )
-    }
+    //     </View>
+    //   )
+    // }
     function renderSearchBar(){
       return(
         <View
@@ -123,7 +123,7 @@ const [selectedTab,setSelectedTab] = React.useState(0)
             color:COLORS.black,
             ...FONTS.body3
           }}
-          placeholder="Enter here"
+          placeholder="Tìm Kiếm"
           placeholderTextColor={COLORS.lightGray2}
           />
 
@@ -244,7 +244,7 @@ const [selectedTab,setSelectedTab] = React.useState(0)
                   }}
                 >
                   <Text style={{ color: COLORS.white1, ...FONTS.body3 }}>
-                    Pick-Up
+                    Đặt Hàng
                   </Text>
                 </View>
                 {/* Delivery */}
@@ -259,7 +259,7 @@ const [selectedTab,setSelectedTab] = React.useState(0)
                   }}
                 >
                   <Text style={{ color: COLORS.white1, ...FONTS.body3 }}>
-                  Delivery
+                  Chuyển đi
                   </Text>
                 </View>
               </View>
@@ -290,7 +290,7 @@ const [selectedTab,setSelectedTab] = React.useState(0)
               padding:SIZES.padding
             }}
             >
-              {renderTopBarSection()}
+              {/* {renderTopBarSection()} */}
               {renderSearchBar()}
               {renderLocationList()}
             </View>
